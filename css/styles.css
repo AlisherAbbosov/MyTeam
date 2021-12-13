@@ -12,6 +12,13 @@
     color: #fff !important;
     border: 1px solid #fff ;
 }
+.button:hover {
+    background-color: #fff;
+    color: #014e56 !important;
+}
+.button:active {
+    opacity: 0.5;
+}
 .info {
     padding-top: 198px;
     padding-bottom: 122px;
@@ -69,7 +76,11 @@
     opacity: 0.8;
 }
 .services {
+    padding: 140px 0;
     background: #004047;
+    background-image: url("../img/circle_services_bottom.png"), url('../img/rectangle-services-top.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, top left !important;
 }
 .services__title {
     margin: 0;
@@ -91,22 +102,26 @@
     margin: 0;
     padding: 0;
     margin-bottom: 24px;
-    position: relative;
     font-family: 'Livvic';
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
     line-height: 25px;
     text-align: center;
+    z-index: 20;
     color: #FFFFFF;
+  
 }
-.services__thought::before {
+/* .services__thought::before {
     content: '';
     display: block;
     position: absolute;
+    width: 67px;
+    height: 56px;
     background-image: url('../img/quotation.png');
-    background-size: 67px 56px;
-}
+    background-repeat: no-repeat;
+    
+} */
 .services__name {
     margin: 0;
     padding: 0;
@@ -146,6 +161,9 @@
     .info__title {
         font-size: 32px;
         line-height: 32px;
+    }
+    .services__item + .services__item {
+        margin-top: 84px;
     }
 }
 @media only screen and (max-width:568px) {
