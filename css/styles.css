@@ -68,6 +68,75 @@
     mix-blend-mode: normal;
     opacity: 0.8;
 }
+.services {
+    background: #004047;
+}
+.services__title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 92px;
+    max-width: 932px;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;    
+}
+.services__span {
+    color: #79C8C7;
+}
+.services__thought {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 24px;
+    position: relative;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.services__thought::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-image: url('../img/quotation.png');
+    background-size: 67px 56px;
+}
+.services__name {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2px;
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+}
+.services__desc {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 32px;
+    font-family: 'Livvic';
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;    
+}
+
+
+
+
+
+
+
+
 @media only screen and (max-width:964px) {
     .info {
         padding-top: 136px;
