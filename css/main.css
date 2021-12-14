@@ -147,6 +147,11 @@
   position: relative;
   padding: 76px 0;
   background-color: #f67e7e;
+  /* text-align: center; */
+}
+.contactus__wrap {
+  display: flex;
+  justify-content: space-between;
 }
 .contactus::before {
   content: "";
