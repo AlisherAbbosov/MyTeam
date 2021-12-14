@@ -176,7 +176,35 @@
 .get-start__button:active {
     opacity: 0.5;
 }
-
+.footer {
+    padding: 48px 0;
+    background-color: #002529;
+}
+.footer__container {
+    position: relative !important;
+}
+.footer__link--item:hover {
+    color: #F67E7E;
+}
+.footer__link--item:active {
+    opacity: 0.5;
+}
+.footer__information {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+.footer__svg:hover path {
+    fill:#F67E7E;
+}
+.footer__svg:active path {
+    opacity: 0.5;
+}
 
 
 
@@ -241,4 +269,25 @@
         margin-right: 0;
         margin-bottom: 16px;
     }
+}
+@media only screen and (min-width: 0) {
+    .footer {
+        padding-bottom: 105px !important;
+    }
+    
+    .footer__information--absolute {
+        position: absolute !important;
+        right: 30% !important;
+        bottom: -60px !important;
+    }
+}
+@media only screen and (min-width: 767px) {
+    .footer {
+        padding-bottom: 48px !important;
+    }
+    .footer__information--absolute {
+        position: absolute !important;
+        right: 0 !important;
+        bottom: 0 !important;
+    }    
 }
