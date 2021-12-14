@@ -39,7 +39,7 @@
 
 .about__hero {
   position: relative;
-  padding: 130px 0 120px;
+  padding: 65px 0 120px;
   background-color: #014e56;
 }
 
@@ -297,3 +297,8 @@
     flex-direction: column;
   }
 }
+
+/* .footer {
+  background-color: #002529;
+  padding: 48px 0;
+} */
