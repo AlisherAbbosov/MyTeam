@@ -1,0 +1,56 @@
+body{
+  font-family: "Livvic";
+}
+.home-hero{
+    background-color: #014e56;
+}
+.container {
+    width: 100% !important;
+    max-width: 1150px !important;
+    padding: 0 20px !important;
+}
+.home-hero{
+    padding-bottom: 125px;
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+}
+
+.header {
+    margin: 0;
+  width: 635px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 100px;
+  color: #ffffff;
+}
+.text-danger {
+    margin: 0;
+    padding: 0;
+  color: #f67e7e !important;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 100px;
+  color: #ffffff;
+}
+.hero-desc{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 445px;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+color: #FFFFFF;
+}
+.hero-desc::before{
+    display: inline-block;
+    content: url('');
+    position: absolute;
+    top: -79px;
+    width: 50px;
+    height: 4px;
+    background: #79C8C7;
+}
